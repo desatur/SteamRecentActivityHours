@@ -1,5 +1,7 @@
 const SteamUser = require('steam-user');
 const client = new SteamUser({enablePicsCache: true});
+console.log("SteamRecentActivityHours Version 2");
+console.log("Logging in...");
 
 client.logOn({
   accountName: "your username",
