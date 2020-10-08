@@ -1,7 +1,7 @@
 const SteamUser = require('steam-user');
 const client = new SteamUser({enablePicsCache: true});
 const config = require("./config.json");
-console.log("SteamRecentActivityHours Version 3");
+console.log("SteamRecentActivityHours Version 4");
 
 client.logOn({
   accountName: (config.username),
@@ -17,6 +17,6 @@ client.on('appOwnershipCached', () => {
   console.log(`Launching Games...`);
   var games = client.getOwnedApps();
   games[0] = 730;
-  console.log(`Launched ${games.length} games!`);
+  console.log(`Launched ${games.length} games and apps!`);
   client.gamesPlayed(games);
 });
