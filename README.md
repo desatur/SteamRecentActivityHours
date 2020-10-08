@@ -6,3 +6,5 @@ Script i just made in node.js to launch all games and apps in steam libray, resu
 Make sure you installed steam-user from npm
 
 Edit the config, set up your username and password
+
+If this script is buggy, not my fault
