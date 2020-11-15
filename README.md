@@ -7,4 +7,7 @@ Make sure you installed steam-user and http from npm
 
 Edit the config, set up your username and password
 
+![](cap1.gif)
+Like this
+
 If this script is buggy, not my fault
