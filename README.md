@@ -10,4 +10,6 @@ Edit the config, set up your username and password
 ![](cap1.gif)
 Like this
 
+PLEASE Read LICENSE File.
+
 If this script is buggy, not my fault
