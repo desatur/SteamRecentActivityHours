@@ -20,7 +20,7 @@ client.on('appOwnershipCached', () => {
   client.gamesPlayed(games);
   console.log(`Launched ${games.length} games and apps!\nSome apps or programs may not start, i have no clue how to fix this.`);
   console.log(`\nLaunching http info server.`)
-  http.createServer(function (req, res) { // Start http server with information
+  http.createServer(function (req, res) { // Start http server with information (removing in version 6, bugged)
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end(`SteamRecentActivityHours Version ${version}\nScript by: Araeon\nRunning ${games.length} games and apps on ${client.accountInfo.name}.`);
   }).listen(8080);
