@@ -5,7 +5,7 @@ const client = new SteamUser({enablePicsCache: true});
 const config = require("./config.json");
 // Call client.
 
-var version = 8CLI
+var version = "9CLI"
 console.log(`SteamRecentActivityHours Version ${version}\nScript by: AtomSnow`);
 // Just splash text.
 
