@@ -1,7 +1,7 @@
 # SteamRecentActivityHours
 Launches all steam games and apps for farming Activity Hours on profile.
 
-Script i just made in node.js to launch all games and apps in steam libray, results farming Activity Hours on Steam profile (1000+ Hours in a 3 days)
+Script I just made in node.js to launch all games and apps in steam library, results farming Activity Hours on Steam profile (1000+ Hours in a 3 days)
 
 Make sure you installed steam-user from npm.
 
@@ -15,4 +15,4 @@ Like this
 
 PLEASE Read LICENSE File.
 
-If this script is buggy, not my fault
+If this script is buggy, not my fault. Sometimes it's Package's fault or the runtime overloads.
